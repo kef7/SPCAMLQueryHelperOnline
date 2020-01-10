@@ -1,9 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPCAMLQueryHelperOnline", "SPCAMLQueryHelperOnline.csproj", "{1E5EF082-2C29-49D8-AB63-C590771ECD8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharePointDLLs", "SharePointDLLs", "{4B0593C8-5623-44CD-8A34-35873FB81A6E}"
+	ProjectSection(SolutionItems) = preProject
+		..\_SharePointDLLs\Microsoft.SharePoint.Client.dll = ..\_SharePointDLLs\Microsoft.SharePoint.Client.dll
+		..\_SharePointDLLs\Microsoft.SharePoint.Client.Runtime.dll = ..\_SharePointDLLs\Microsoft.SharePoint.Client.Runtime.dll
+		..\_SharePointDLLs\Microsoft.SharePoint.dll = ..\_SharePointDLLs\Microsoft.SharePoint.dll
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +25,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC2C8309-9B22-46AF-B942-70EAD733BB54}
 	EndGlobalSection
 EndGlobal
